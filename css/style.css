@@ -1,0 +1,66 @@
+.container {
+    width: 1146px;
+}
+body {
+    background: #14131A url(../img/bgc.png) center  no-repeat;
+    background-size: 100% auto;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    /* padding: 40px; */
+    z-index: 0;
+}
+.venom-fone {
+    width: 800px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.venom-head {
+    width: 626px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.logo-link {
+    display: inline-block;
+    margin-right: 80px;
+}
+.header {
+    display: flex;
+    margin-top: 30px;
+}
+.nav {
+    margin-left: 40px;
+}
+.nav-menu {
+    display: flex;
+    padding: 10px;
+}
+.nav-menu-link {
+    display: flex;
+    text-decoration: none;
+    /* font-weight: 500; */
+    margin-right: 30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+li {
+    list-style: none;
+}
+
+/* 2 section */
+h1 {
+    padding: 35px 0 0 80px;
+    color: #fff;
+}
+.section-header {
+    padding: 28px 0 0 80px;
+}
+.section-text {
+    padding: 40px 0 0 80px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}

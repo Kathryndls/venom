@@ -19,6 +19,16 @@
             <img width="46" height="71"src="img/logo.png" alt="logo:venom">
         </a>
         <nav class="nav">
+            <button class="menu-button">
+                <span class="menu-button-text"> меню
+                    <img src="img/menu-button-icon.png" alt="menu-button-icon">
+                </span>
+            </button>
+            <button class="menu-close"> 
+                <span class="menu-close-text">Закрыть
+                    <img src="img/about/needle.png" alt="menu-button-text">
+                </span>
+            </button>
         <ul class="nav-menu">
             <li class="nav-menu-item">
                 <a href="about.html" class="nav-menu-link">О фильме</a>
@@ -42,15 +52,20 @@
         <p class="section-text">В настырном журналисте по-прежнему живет симбиот. <br> Том Харди в образе обаятельного суперзлодея <br> из комиксов Marvel.</p>
 
         <div class="button-group">
-            <button class="button button-primary">
+            <a class="button button-primary" data-fancybox href="https://www.youtube.com/watch?v=EHaOCkk6KTE">
                 <img width="15" src="img/button_seaction.png" alt="icon:play" class="button-icon">
                 <span class="button-text">смотреть трейлер</span>
-            </button>
+            </a>
             <a href="trailer.html" class="button-link">
                 <img width="15" src="img/a_seaction.png" alt="icon: Ticket" class="button-icon">
                 <span class="button-text">билеты на премьеру</span>
             </a>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    
+    <script src="js/main.js"></script>
 </body>
 </html>
